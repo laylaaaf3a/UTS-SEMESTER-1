@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKING RUANGAN</title>
+    <link rel="stylesheet" href="cssuts.css">
+</head>
+<body>
+    <fieldset>
+        <legend>Booking Ruangan</legend>
+    <table>
+        <tr>
+            <td>
+                <label for="namapeminjam">Nama Peminjam :</label>
+            </td>
+            <td>
+                <input type="text" name="namapeminjam" id="namapeminjam">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="namaruangan">Nama Ruangan :</label>
+            </td>
+            <td>
+                <select name="namaruangan" id="namaruangan">
+                    <option value="ruangankasih">Ruangan Kasih</option>
+                    <option value="ruangansayang">Ruangan Sayang</option>
+                    <option value="ruangantebar">Ruangan Tebar</option>
+                    <option value="ruanganbunga">Ruangan Bunga</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="deskripsikegiatan">Deskirpsi Kegiatan :</label>
+            </td>
+            <td>
+                <textarea name="deskripsikegiatan" id="deskripsikegiatan" cols="30" rows="5"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <dt>Fasilitas Tambahan :</dt>
+                <td>
+                    <input type="checkbox" name="fasilitas[]" value="soundsystem"> Sound System &ensp;
+                    <input type="checkbox" name="fasilitas[]" value="wifi"> wifi &ensp;
+                    <input type="checkbox" name="fasilitas[]" value="layarbesar"> Layar Besar &ensp;
+                    <input type="checkbox" name="fasilitas[]" value="katering"> Katering &ensp;
+                </td>
+            </td>
+        </tr>
+        <tr>
+         <td>
+            <label for="tanggalpinjaman">Tanggal Peminjaman :</label>
+         </td>
+         <td>
+            <input type="date" name="tanggalpinjaman" id="tanggalpinjaman">
+         </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="kontakperson">Kontak Person :</label>
+            </td>
+            <td>
+                <input type="text" name="kontakperson" id="kontakperson<button t">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="telephone/hp">Telephone/HP :</label>
+            </td>
+            <td>
+                <input type="number" name="Telephone/hp" id="telephone/hp">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="email">Email :</label>
+            </td>
+            <td>
+                <input type="text" name="email" id="email">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="submit" class="btn-blue">Submit</button>
+                <button type="reset" class="btn-red">Reset</button>
+            </td>
+        </tr>
+    </table>
+    </fieldset>
+</body>
+</html>
